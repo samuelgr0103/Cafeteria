@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Raleway:wght@700;900&family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="build/css/app.css" />
+    <title>Cafeteria SASS</title>
+  </head>
+  <body>
+    <header class="header header-nosotros">
+      <div class="contenido-header contenedor">
+        <div class="barra">
+          <div class="logo">
+            <img src="build/img/logo.svg" alt="Logo cafeteria" />
+          </div>
+          <nav class="nav-principal">
+            <a href="indext.html">Incio</a>
+            <a class="activo" href="nosotros.html">Nosotros</a>
+            <a href="proceso.html">Proceso</a>
+            <a href="menu.html">Menu</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="contacto.html">Contacto</a>
+          </nav>
+        </div>
+        <!--barra-->
+        <div class="texto-header">
+          <h1>Una nueva Experiencia cada diá</h1>
+        </div>
+      </div>
+    </header>
+    <main class="contenedor contenido-principal">
+      <h2><span>Conoce mas</span>Sobre nosotros</h2>
+      <div class="contenido_nosotros">
+        <div class="imagen">
+          <picture>
+            <source
+              srcset="build/img/nosotros_sidebar.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="build/img/nosotros_sidebar.webp"
+              type="image/webp"
+            />
+            <source srcset="build/img/nosotros_sidebar.jpg" type="image/jpg" />
+            <img
+              loading="lazy"
+              decoding="async"
+              lazyalt="imagen"
+              src="build/img/nosotros_sidebar.jpg"
+              alt="Imagen"
+            />
+          </picture>
+        </div>
+        <div class="texto">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            maiores magnam fuga et explicabo doloremque in, nobis qui odio quia!
+            Explicabo perspiciatis earum consequuntur vel atque soluta ratione,
+            debitis inventore!
+          </p>
+          <blockquote>Excelente Sabor!</blockquote>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            maiores magnam fuga et explicabo doloremque in, nobis qui odio quia!
+            Explicabo perspiciatis earum consequuntur vel atque soluta ratione,
+            debitis inventore!
+          </p>
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="contenedor footer-contenido bg-white">
+        <div class="footer-box ubicacion">
+          <h3>Ubicacion</h3>
+          <p>Nicolas copérnico 5999</p>
+          <p>Chulpancingo Gro.</p>
+        </div>
+        <div class="footer-box reservacion">
+          <h3>Reservacion</h3>
+          <p>Te;. 75884555</p>
+          <a href="tel:+7471449651">Llamar</a>
+        </div>
+        <div class="footer-box horario">
+          <h3>Horario</h3>
+          <p>Lun-vie: 11:00 - 22:00</p>
+          <p>Vie-Sab: 09: - 24:00</p>
+          <p>Domingo: Cerrado</p>
+        </div>
+      </div>
+      <div class="copyright">Todos los derechos reservados. La cafeteria.</div>
+    </footer>
+  </body>
+</html>
